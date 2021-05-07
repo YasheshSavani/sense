@@ -1,4 +1,4 @@
-##Objective
+## Objective
 
 Everyone has played badminton at least once in their lifetime. To play, we need to learn different shots and for that
 we take help from coaches, tournament videos, books and last we do practice everyday.
@@ -10,7 +10,7 @@ So, at that time, this application <b><code>Badminton Shot Recognition</code></b
 recognizing your badminton shots.
 
 
-##Dataset Breakdown
+## Dataset Breakdown
 
 There are <code>17</code> different classes (badminton shots + background activity + no racket actions) on which this model is
 trained using transfer learning on top of the weights provided by <code>sense</code> repository.
@@ -119,17 +119,87 @@ Dataset distribution: (approx) 70% train, 30% valid (Each class)<br/>
 
 
 ## Examples of classes
-<img src="../assets/badminton_shots/With_racket.gif" alt="With racket">
-| With Racket | Without racket | Forward Forehand shot | Forward Backhand shot |
-| --- | --- | --- | --- |
-| ![With Racket](../assets/badminton_shots/With_racket.gif) | ![With Racket](../assets/badminton_shots/Without_racket.gif) | ![With Racket](../assets/badminton_shots/Forward_forehand_shot.gif) | ![With Racket](../assets/badminton_shots/Forward_backhand_shot.gif) |
+<table>
+    <tr>
+        <td>
+            <span>Forehand underhead shot</span><br/>
+            <img src="../assets/badminton_shots/Forehand_underhead_shot.gif" alt="Forehand_underhead_shot">
+        </td>
+        <td>
+            <span>Backhand underhead shot</span><br/>
+            <img src="../assets/badminton_shots/Backhand_underhead_shot.gif" alt="Backhand underhead shot">
+        </td>
+        <td>
+            <span>Forward backhand shot</span><br/>
+            <img src="../assets/badminton_shots/Forward_backhand_shot.gif" alt="Forward backhand shot">
+        </td>
+        <td colspan="2">
+            <span>Forward forehand shot</span><br/>
+            <img src="../assets/badminton_shots/Forward_forehand_shot.gif" alt="Forward forehand shot">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <span>Backhand backcourt shot</span><br/>
+            <img src="../assets/badminton_shots/Backhand_backcourt_shot.gif" alt="Backhand backcourt shot">
+        </td>
+        <td>
+            <span>Forehand backcourt shot</span><br/>
+            <img src="../assets/badminton_shots/Forehand_backcourt_shot.gif" alt="Forehand backcourt shot">
+        </td>
+        <td>
+            <span>Forehand serve</span><br/>
+            <img src="../assets/badminton_shots/Forehand_serve.gif" alt="Forehand serve">
+        </td>
+        <td>
+            <span>Backhand serve</span><br/>
+            <img src="../assets/badminton_shots/Backhand_serve.gif" alt="Backhand serve">
+        </td>
+        <td>
+            <span>Backhand side shot</span><br/>
+            <img src="../assets/badminton_shots/Backhand_side_shot.gif" alt="Backhand side shot">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <span>Forehand side shot</span><br/>
+            <img src="../assets/badminton_shots/Forehand_side_shot.gif" alt="Forehand side shot">
+        </td>
+        <td>
+            <span>Forehand overhead shot</span><br/>
+            <img src="../assets/badminton_shots/Forehand_overhead_shot.gif" alt="Forehand overhead shot">
+        </td>
+        <td>
+            <span>Backhand overhead shot</span><br/>
+            <img src="../assets/badminton_shots/Backhand_overhead_shot.gif" alt="Backhand overhead shot">
+        </td>
+        <td>
+            <span>With racket</span><br/>
+            <img src="../assets/badminton_shots/With_racket.gif" alt="With racket">
+        </td>
+        <td>
+            <span>Without racket</span><br/>
+            <img src="../assets/badminton_shots/Without_racket.gif" alt="Without racket">
+        </td>
+    </tr>
+</table>
 
-| Forehand Overhead shot | Backhand Overhead shot | Forehand Serve | Backhand Serve |  |
-| --- | --- | --- | --- | --- |
-| ![With Racket](../assets/badminton_shots/With_racket.gif) | ![With Racket](../assets/badminton_shots/With_racket.gif) | ![With Racket](../assets/badminton_shots/With_racket.gif) | ![With Racket](../assets/badminton_shots/With_racket.gif) | ![With Racket](../assets/badminton_shots/With_racket.gif) |
+[comment]: <> (| With Racket | Without racket | Forward Forehand shot | Forward Backhand shot |)
 
-| With Racket | Without racket | Without racket | Without racket | With Racket |
-| --- | --- | --- | --- | --- |
-| }![With Racket](../assets/badminton_shots/With_racket.gif) | ![With Racket](../assets/badminton_shots/With_racket.gif) | ![With Racket](../assets/badminton_shots/With_racket.gif) | ![With Racket](../assets/badminton_shots/With_racket.gif) | ![With Racket](../assets/badminton_shots/With_racket.gif) |
+[comment]: <> (| --- | --- | --- | --- |)
+
+[comment]: <> (| ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/Without_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/Forward_forehand_shot.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/Forward_backhand_shot.gif&#41; |)
+
+[comment]: <> (| Forehand Overhead shot | Backhand Overhead shot | Forehand Serve | Backhand Serve |  |)
+
+[comment]: <> (| --- | --- | --- | --- | --- |)
+
+[comment]: <> (| ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; |)
+
+[comment]: <> (| With Racket | Without racket | Without racket | Without racket | With Racket |)
+
+[comment]: <> (| --- | --- | --- | --- | --- |)
+
+[comment]: <> (| }![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; |)
 
 
