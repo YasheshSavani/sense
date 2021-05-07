@@ -183,23 +183,3 @@ Dataset distribution: (approx) 70% train, 30% valid (Each class)<br/>
         </td>
     </tr>
 </table>
-
-[comment]: <> (| With Racket | Without racket | Forward Forehand shot | Forward Backhand shot |)
-
-[comment]: <> (| --- | --- | --- | --- |)
-
-[comment]: <> (| ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/Without_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/Forward_forehand_shot.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/Forward_backhand_shot.gif&#41; |)
-
-[comment]: <> (| Forehand Overhead shot | Backhand Overhead shot | Forehand Serve | Backhand Serve |  |)
-
-[comment]: <> (| --- | --- | --- | --- | --- |)
-
-[comment]: <> (| ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; |)
-
-[comment]: <> (| With Racket | Without racket | Without racket | Without racket | With Racket |)
-
-[comment]: <> (| --- | --- | --- | --- | --- |)
-
-[comment]: <> (| }![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; | ![With Racket]&#40;../assets/badminton_shots/With_racket.gif&#41; |)
-
-
