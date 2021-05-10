@@ -186,5 +186,5 @@ Dataset distribution: (approx) 70% train, 30% valid (Each class)<br/>
 
 ## Output
 <p align="center">
-    <img src="../assets/badminton_output.gif">
+    <img src="../assets/badminton_shots/badminton_output.gif" alt="Badminton shot output">
 </p>
