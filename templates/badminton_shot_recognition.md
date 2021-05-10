@@ -183,3 +183,8 @@ Dataset distribution: (approx) 70% train, 30% valid (Each class)<br/>
         </td>
     </tr>
 </table>
+
+## Output
+<p align="center">
+    <img src="../assets/badminton_output.gif">
+</p>
