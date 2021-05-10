@@ -1,3 +1,9 @@
+This is a fork of [TwentyBN/sense](https://github.com/TwentyBN/sense).
+<p>
+    Check out these <a href="https://yasheshsavani.github.io/sense/">blogposts</a> to get information about different applications that can be developed using the
+    toolkit provided by <a href="https://github.com/TwentyBN/sense"><code>sense</code></a> by transfer learning.
+</p>
+
 <div align="center">
 
 <img src="docs/imgs/sense_core_logo.svg" height="140px">
