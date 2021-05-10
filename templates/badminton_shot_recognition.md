@@ -1,4 +1,4 @@
-## Objective
+## Badminton Shot Recognition
 
 Everyone has played badminton at least once in their lifetime. To play, we need to learn different shots and for that
 we take help from coaches, tournament videos, books and last we do practice everyday.
