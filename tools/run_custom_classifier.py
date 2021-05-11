@@ -30,7 +30,8 @@ from sense.downstream_tasks.postprocess import PostprocessClassificationOutput
 from sense.loading import build_backbone_network
 from sense.loading import load_backbone_model_from_config
 from sense.loading import update_backbone_weights
-from examples.run_back_health_posture import MyBackHealthController
+from sense.controller import Controller
+
 
 def run_custom_classifier(custom_classifier, camera_id=0, path_in=None, path_out=None, title=None, use_gpu=True,
                           display_fn=None, stop_event=None):
@@ -74,12 +75,12 @@ def run_custom_classifier(custom_classifier, camera_id=0, path_in=None, path_out
     display_ops = [
         sense.display.DisplayFPS(expected_camera_fps=net.fps,
                                  expected_inference_fps=net.fps / net.step_size),
-        sense.display.DisplayTopKClassificationOutputs(top_k=2, threshold=0.1),
+        sense.display.DisplayTopKClassificationOutputs(top_k=1, threshold=0.1),
     ]
     display_results = sense.display.DisplayResults(title=title, display_ops=display_ops, display_fn=display_fn)
 
     # Run live inference
-    controller = MyBackHealthController(
+    controller = Controller(
         neural_network=net,
         post_processors=postprocessor,
         results_display=display_results,
