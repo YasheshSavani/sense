@@ -24,13 +24,13 @@ from docopt import docopt
 import torch
 
 import sense.display
+from sense.controller import Controller
 from sense.downstream_tasks.nn_utils import LogisticRegression
 from sense.downstream_tasks.nn_utils import Pipe
 from sense.downstream_tasks.postprocess import PostprocessClassificationOutput
 from sense.loading import build_backbone_network
 from sense.loading import load_backbone_model_from_config
 from sense.loading import update_backbone_weights
-from sense.controller import Controller
 
 
 def run_custom_classifier(custom_classifier, camera_id=0, path_in=None, path_out=None, title=None, use_gpu=True,
