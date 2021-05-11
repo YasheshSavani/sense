@@ -1,7 +1,7 @@
 ## Badminton Shot Recognition
 
 Everyone has played badminton at least once in their lifetime. To play, we need to learn different shots and for that
-we take help from coaches, tournament videos, books and last we do practice everyday.
+we take help from coaches, tournament videos, books and last we do practice every day.
 
 But, after lots of practice, if you want to know that how perfect are your shots or what shot that international
 player played in the video, how will you do that?
@@ -9,6 +9,10 @@ player played in the video, how will you do that?
 So, at that time, this application <b><code>Badminton Shot Recognition</code></b> can be used, which will provide realtime feedback by
 recognizing your badminton shots.
 
+## Model Training
+
+The model for badminton shot recognition was trained on the model `StridedInflatedEfficientNet`, by fine-tuning `17` layers of the 
+model. To get the weights for the badminton shot recognition model click [here](https://drive.google.com/file/d/1rAOZjs1m7OVbD_B5Wjy98PJgsRlgWYdr/view?usp=sharing).
 
 ## Dataset Breakdown
 
@@ -19,6 +23,7 @@ Number of total videos: 278<br/>
 Duration of videos: 4 to 5 seconds<br/>
 Dataset distribution: (approx) 70% train, 30% valid (Each class)<br/>
 
+To download, the dataset click [here](https://drive.google.com/file/d/1jBj_LKy9W_gK1Ws5iM5po-LVkLONM3Zv/view?usp=sharing).
 <table>
     <tr>
         <th>Classes</th>
